@@ -1,5 +1,5 @@
 ---
-title: "Title"
+title: "Debt Ceiling Brinkmanship and Global Financial Diversification"
 format:
   jasa-pdf:
     keep-tex: true  
@@ -8,216 +8,89 @@ format:
   jasa-html: default
 date: last-modified
 author:
-  - name: Author 1
+  - name: William Clinton Co
     acknowledgements: | 
-      The authors gratefully acknowledge _please remember to list all relevant funding sources in the non-anonymized (unblinded) version_.
+       Below is an attached research proposal. It starts with an introduction. Followed by relevant data sets along with proposed methodology. Lastly, a game theory model of debt ceiling brinkmanship is proposed. 
     affiliations:
-      - name: University of XXX
-        department: Department of YYY
-  - name: Author 2
-    affiliations:
-      - name: University of WWW
-        department: Department of ZZZ
+      - name: The University of British Columbia
+        department: Department of Economics
+  
 abstract: |
   The text of your abstract. 200 or fewer words.
 keywords:
   - 3 to 6 keywords
   - that do not appear in the title
 bibliography: bibliography.bib  
+editor: 
+  markdown: 
+    wrap: sentence
 ---
 
 ## Introduction {#sec-intro}
 
-Body of paper.
-Margins in this document are roughly 0.75 inches all around, letter size paper.
+Constantly increasing public debt has been a recent occurrence throughout recent history @mitchener2023.
+This raises the question of how will governments deal with rising debt burdens going forward.
+As debt increases, cost of borrowing increases.
+Do governments internalize the increase of cost of borrowing, in the context of debt ceiling brinkmanship?
+We construct a data set of X-dates, dates where the US government will supposedly run out of money.
+We then analyze the CDS prices and yield spreads, such that we investigate weather debt ceiling negotiations will settle earlier given a bigger increased in cost of capital.We investigate trends overtime.
 
+It has also been noted we have debt crisis without default has become more common, wherein there was a near missed payment but never a default has a negative effect on output, as exemplified in Greece Portugal and Spain during 2010-2012 @mitchener2023 .
+Going a step further some have propose to change the definition of debt crises to yield spreads of 1000 basis points, also known as spread spikes.
+[@broner2013; @aguiar; @krishnamurthy].
+We investigate if debt ceiling brinkmanship falls under this category.
+There has been work on the frequency of debt crisis without default.
+we study this data set by cite @meyer2022 as it relates data on debt ceiling brinkmanship @reinhart2008 we use the defintion of 1000 basis points we analyze these in the context of debt brinkmanship taking inspiration from graphs.
 
-![Consistency comparison in fitting surrogate model in the tidal power example.](fig1.pdf){#fig-first width=3in}
+![](style-guide/overtime_brink_1.png)
 
-| one  | two  | three | four | five |
-|------|------|-------|------|------|
-| 1.23 | 3.45 | 5.00  | 1.21 | 3.41 |
-| 1.23 | 3.45 | 5.00  | 1.21 | 3.42 |
-| 1.23 | 3.45 | 5.00  | 1.21 | 3.43 |
+![](style-guide/overtime_brink_2.png)
 
-: D-optimality values for design X under five different scenarios. {#tbl-one}
+What makes this even more poignant is that the output decline happens in anticipation of a default rather than the default itself @yeyati2011 .
+Thus we investigate if this link applies to debt ceiling brinkmanship as well.
 
-- Note that figures and tables (such as @fig-first and @tbl-one) should appear in the paper, not at the end or in separate files.
-- In document front matter, you may set the key `blinded` under a `journal` key to hide the authors and acknowledgements, producing the required anonymized version.
-- Remember that in the anonymized version, you should not identify authors indirectly in the text.  That is, don't say "In Smith et. al.  (2009) we showed that ...". Instead, say "Smith et. al. (2009) showed that ...".
-- These points are only intended to remind you of some requirements.
-Please refer to the instructions for authors
-at [http://amstat.tandfonline.com/action/authorSubmission?journalCode=uasa20&page=instructions#.VFkk7fnF_0c](http://amstat.tandfonline.com/action/authorSubmission?journalCode=uasa20&page=instructions#.VFkk7fnF_0c)
-- For more about ASA\ style, please see [https://files.taylorandfrancis.com/asa-style-guide.pdf](https://files.taylorandfrancis.com/asa-style-guide.pdf).
-- If you have supplementary material (e.g., software, data, technical
-proofs), identify them in the section below.  In early stages of the
-submission process, you may be unsure what to include as supplementary
-material.  Don't worry---this is something that can be worked out at later stages.
+What makes this an important topic to study is the body of evidence proving a decline in output associated with the high yields that accompanies a debt crisis.
+There are varying reasons for this such as the relationship between external financing and importers @mendoza2012 , the decrease in external domestic firm borrowing[@corsetti2012; @das2010; @gourinchas2016] or the tightening of credit against loses on bank balance sheets[@arellano; @ferrando2017].Similarly, we explore this in the context of debt brinkmanship.
 
-## Methods {#sec-meth}
+There has also been work on how credit rating agencies downgrading reduces leverage and investments @almeida2017.
+Similar conclusions were drawn using CDS premia instead of bond yield spreads [@brutti2015; @bahaj2020].
+Similarly, we explore this in the context of debt brinkmanship.
 
-Don't take any of these section titles seriously.
-They're just for illustration.
+Another pertinent question is the many creditors willing to lend to highly indebted sovereigns.
+Currently we are in a safe asset shortage, such that we are coming closer to the effective lower bound, wherein central banks could not decrease interest rates any further as needed.
+This shortage is a key source of fragility in the economy, dubbed the "safety trap".
+@caballero2017We investigate if brinkmanship is a contributor to the shortage of safe assets.
+If so then there would be an argument to abolish the system on a global welfare standpoint.
+Taking inspiration from
 
-## Verifications {#sec-verify}
+track how china plays into this .
+Track Chinese investments.
 
-This section will be just long enough to illustrate what a full page of text looks like, for margins and spacing.
+advanced vs developed
 
+Track advance vs developed economies effects
 
-:::{add-textheight=".5in"}
+currency composition\-- world currency composition.
+I track the investment.
+I track the currencies.
 
-@gelm:veht:2021 offer some guidance about key ideas about statistical ideas.
-On an unrelated note, spreadsheets are important to use correctly [@brom:woo:2018].
-Log-linear models are an attractive way to model categorical data [@bish:fien:1975].
+![Consistency comparison in fitting surrogate model in the tidal power example.](style-guide/1_year_ERP.png){#fig-first}
 
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-**With this spacing we have 25 lines per page.**
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
+We use the 1 year expected risk premium vs the 1 year treasury yield to construct a similar graph that marks debt ceiling brinkmanship.
+Furthermore we construct the graph below with the same variables @duarte2015.
 
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
+![](style-guide/1_year_ERP_parallel_trends.jpeg)
 
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
+given the outsize buying of central banks we look at
 
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
+. By answering this question we gain insight into the future of larger and larger public debt burdens going forward.
 
-:::
+We investigate if its ias a threat to safe asset shortage.
 
+The US treasury yield occupies the status as the biggest and most liquid market, wherein its yield is a signicant determinant of the global factor of yields.
 
-:::{add-textheight=".2in"}
+Given that the global factor has become increasingly a more important determinant of yields ,against the specific "country" factor @mauro2002. thus it becomes important to study this phenomenon.[@rozada2006; @gonzález-rozada2008; @longstaff2011]
 
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
+## Data set {#sec-dataset}
 
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-The quick brown fox jumped over the lazy dog.
-
-:::
-
-## Conclusion {#sec-conc}
-
-## Disclosure statement
-
-The authors have the following conflicts of interest to declare (or replace with a statement that no conflicts of interest exist).
-
-## Data Availability Statement
-
-Deidentified data have been made available at the following URL: XX.
-
-## Supplementary Material {.supplementary}
-
-Title:
-
-:   Brief description. (file type)
-
-
-R-package for  MYNEW routine: 
-
-:   R-package MYNEW containing code to perform the diagnostic methods described in the article. The package also contains all datasets used as examples in the article. (GNU zipped tar file)
-
-HIV data set:
-
-:   Data set used in the illustration of MYNEW method in @sec-verify (.txt file).
-
-## BibTeX 
-
-We encourage you to use BibTeX.
-If you have, please feel free to use the package natbib with any bibliography style you're comfortable with. The .bst file agsm has been included here for your convenience. 
+## References
