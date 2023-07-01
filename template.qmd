@@ -26,70 +26,96 @@ editor:
     wrap: sentence
 ---
 
-## Introduction {#sec-intro}
+## Literature  {#sec-l}
 
-Constantly increasing public debt has been a recent occurrence throughout recent history @mitchener2023.
+### Increasing Public Debt
+
+Constantly increasing public debt has been a recent developmet throughout recent history @mitchener2023.
 This raises the question of how will governments deal with rising debt burdens going forward.
 As debt increases, cost of borrowing increases.
-Do governments internalize the increase of cost of borrowing, in the context of debt ceiling brinkmanship?
-We construct a data set of X-dates, dates where the US government will supposedly run out of money.
-We then analyze the CDS prices and yield spreads, such that we investigate weather debt ceiling negotiations will settle earlier given a bigger increased in cost of capital.We investigate trends overtime.
+Will governments internalize the increase of cost of borrowing?
+
+### Debt crisis without Default
 
 It has also been noted we have debt crisis without default has become more common, wherein there was a near missed payment but never a default has a negative effect on output, as exemplified in Greece Portugal and Spain during 2010-2012 @mitchener2023 .
 Going a step further some have propose to change the definition of debt crises to yield spreads of 1000 basis points, also known as spread spikes.
 [@broner2013; @aguiar; @krishnamurthy].
-We investigate if debt ceiling brinkmanship falls under this category.
-There has been work on the frequency of debt crisis without default.
-we study this data set by cite @meyer2022 as it relates data on debt ceiling brinkmanship @reinhart2008 we use the defintion of 1000 basis points we analyze these in the context of debt brinkmanship taking inspiration from graphs.
 
-![](style-guide/overtime_brink_1.png)
-
-![](style-guide/overtime_brink_2.png)
-
-What makes this even more poignant is that the output decline happens in anticipation of a default rather than the default itself @yeyati2011 .
-Thus we investigate if this link applies to debt ceiling brinkmanship as well.
+What makes this even more poignant is that the output decline happens in anticipation of a default rather than the default itself @yeyati2011.
 
 What makes this an important topic to study is the body of evidence proving a decline in output associated with the high yields that accompanies a debt crisis.
-There are varying reasons for this such as the relationship between external financing and importers @mendoza2012 , the decrease in external domestic firm borrowing[@corsetti2012; @das2010; @gourinchas2016] or the tightening of credit against loses on bank balance sheets[@arellano; @ferrando2017].Similarly, we explore this in the context of debt brinkmanship.
+There are varying reasons for this such as the relationship between external financing and importers @mendoza2012 , the decrease in external domestic firm borrowing[@corsetti2012; @das2010; @gourinchas2016] or the tightening of credit against loses on bank balance sheets[@arellano; @ferrando2017].
 
 There has also been work on how credit rating agencies downgrading reduces leverage and investments @almeida2017.
-Similar conclusions were drawn using CDS premia instead of bond yield spreads [@brutti2015; @bahaj2020].
+Similar conclusions were drawn using CDS risk premium instead of bond yield spreads [@brutti2015; @bahaj2020].
 Similarly, we explore this in the context of debt brinkmanship.
+
+Interestingly, the current literature has yet to consider if US debt ceiling brinkmanship falls under this category.
+
+### Safe Asset Shortage
 
 Another pertinent question is the many creditors willing to lend to highly indebted sovereigns.
 Currently we are in a safe asset shortage, such that we are coming closer to the effective lower bound, wherein central banks could not decrease interest rates any further as needed.
-This shortage is a key source of fragility in the economy, dubbed the "safety trap".
-@caballero2017We investigate if brinkmanship is a contributor to the shortage of safe assets.
+This shortage is a key source of fragility in the economy, dubbed the "safety trap" @caballero2017 .
+Similarly, the current literature has yet to consider if US debt ceiling brinkmanship contributes to this phenomenon.
+
+## Introduction
+
+The US treasury yield occupies the status as the biggest and most liquid market, wherein its yield is a significant determinant of yields globally.
+This phenomenon would be described as the "global factor" becoming increasingly more important determinant of yields ,against specific "country" factors @mauro2002. Thus, studying the properties of US' yields would be important. \[@rozada2006; @gonzález-rozada2008; @longstaff2011\].
+We shall study US' yields in the context of debt ceiling brinkmanship.
+
+### How will governments react to the increasing cost of borrowing?
+
+We construct a data set of X-dates, dates where the US government will supposedly run out of money.
+This is done by analyzing the maximum ex ante yield spread and CDS prices.
+We then analyze changes in CDS prices and yields, using data from Bloomberg.
+We use official whitehouse data to get dates of debt limit increase.
+We build on prior work which uses the 1000 basis points as a benchmark.
+We isolate brinkmanship with a 1000 basis point increase against those without.
+An example would be
+
+| X-date | Date of Increase | Negotiation length=(X-date)-Date of Increase | CDS   | CDS1000(1000 basis points or more)  | Yields |     |
+|---------|-----------|-------------|--------|--------------|------------|-------|
+| $x_1$  | $d_1$            | $n_{1,yes}=x_1-d_1$                          | $     
+                                                                            c_1    
+                                                                            $      | yes                                 | $      
+                                                                                                                          y_1     
+                                                                                                                          $       |     |
+| $x_2$  | $d_2$            | $n_{1,no}=x_2-d_2$                           | $c_1$ | no                                  | $      
+                                                                                                                          y_2     
+                                                                                                                          $       |     |
+| ....   | .....            | ....                                         | ..... | .....                               | ...    |     |
+
+We investigate if debt ceiling negotiations settle faster given a sharp increase in cost.
+We compute $\bar{n_{y}}$ , average negotiation length with a spread spike and compare this to $\bar{n_{n}}$, negotiation length with no spike.
+
+We also run regression $NegoLength=\Delta CDS+\Delta Yields$, such that we investigate weather debt ceiling negotiations will settle earlier given a bigger increased in cost of capital.
+
+We investigate trends overtime by **plotting** negation length on the y axis against date of increase on the x axis.
+
+We study how brinkmanship affects country yield spreads.
+we take inspiration from the data set by @meyer2022 as it relates data on debt ceiling brinkmanship @reinhart2008.
+
+![](style-guide/overtime_brink_2.png)
+
+### Contributor to safe asset shortage?
+
+Ever since the 2008 financial crisis risk premiums have not returned to prior levels @caballero2017.We investigate if debt brinkmanship contributes to this phenomenon as well.
 If so then there would be an argument to abolish the system on a global welfare standpoint.
-Taking inspiration from
+We take inspiration from
 
-track how china plays into this .
-Track Chinese investments.
+![](style-guide/1_year_ERP.png){#fig-first}
 
-advanced vs developed
+Using time t, as the time of debt increase.
+We graph a line representing the average change in 1 year expected risk premium.
+Another line represents the average change in 1 year treasury yields.
+We construct the graph below with mentioned variables @duarte2015.![](style-guide/1_year_ERP_parallel_trends.jpeg)
 
-Track advance vs developed economies effects
-
-currency composition\-- world currency composition.
-I track the investment.
-I track the currencies.
-
-![Consistency comparison in fitting surrogate model in the tidal power example.](style-guide/1_year_ERP.png){#fig-first}
-
-We use the 1 year expected risk premium vs the 1 year treasury yield to construct a similar graph that marks debt ceiling brinkmanship.
-Furthermore we construct the graph below with the same variables @duarte2015.
-
-![](style-guide/1_year_ERP_parallel_trends.jpeg)
-
-given the outsize buying of central banks we look at
-
-. By answering this question we gain insight into the future of larger and larger public debt burdens going forward.
-
-We investigate if its ias a threat to safe asset shortage.
-
-The US treasury yield occupies the status as the biggest and most liquid market, wherein its yield is a signicant determinant of the global factor of yields.
-
-Given that the global factor has become increasingly a more important determinant of yields ,against the specific "country" factor @mauro2002. thus it becomes important to study this phenomenon.[@rozada2006; @gonzález-rozada2008; @longstaff2011]
+Similarly we do the same process considering variables of advanced vs developing countries.
+We also consider china.
+There has also been work on sovereign debt composition we investigate if sovereign debt composition getsaffected.
+through the world currency composition We also inveestigate its effects with regards to central bank holdings.
 
 ## Data set {#sec-dataset}
 
