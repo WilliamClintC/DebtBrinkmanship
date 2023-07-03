@@ -143,7 +143,7 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same} % disable monospaced font for URLs
 \hypersetup{
-  pdftitle={Debt Ceiling Brinkmanship and Global Financial Diversification},
+  pdftitle={Is US Debt Brinkmanship a Debt Crisis Without Default?},
   pdfauthor={William Clinton Co},
   pdfkeywords={3 to 6 keywords, that do not appear in the title},
   colorlinks=true,
@@ -163,14 +163,12 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\date{June 30, 2023}
-\title{\bf Debt Ceiling Brinkmanship and Global Financial
-Diversification}
+\date{July 2, 2023}
+\title{\bf Is US Debt Brinkmanship a Debt Crisis Without Default?}
 \author{
-William Clinton Co\thanks{Below is an attached research proposal. It
-starts with an introduction. Followed by relevant data sets along with
-proposed methodology. Lastly, a game theory model of debt ceiling
-brinkmanship is proposed.}\\
+William Clinton Co\thanks{We would like to express my gratitude to
+Jonathan Graves for helpful feedback ,guidance and the opportunity to
+participate.}\\
 Department of Economics, The University of British Columbia\\
 }
 \maketitle
@@ -178,7 +176,9 @@ Department of Economics, The University of British Columbia\\
 \bigskip
 \bigskip
 \begin{abstract}
-The text of your abstract. 200 or fewer words.
+Under the backdrop of increasing public debt, ``debt crisis without
+default'' and safe asset shortages, we investigate how US debt
+brinkmanship plays a role into mentioned topics.
 \end{abstract}
 
 \noindent%
@@ -187,7 +187,7 @@ The text of your abstract. 200 or fewer words.
 
 \newpage
 \spacingset{1.9} % DON'T change the spacing!
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, boxrule=0pt, breakable, enhanced, sharp corners, borderline west={3pt}{0pt}{shadecolor}, interior hidden]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, frame hidden, borderline west={3pt}{0pt}{shadecolor}, sharp corners, interior hidden, breakable, enhanced]}{\end{tcolorbox}}\fi
 
 \hypertarget{sec-l}{%
 \section{Literature}\label{sec-l}}
@@ -196,38 +196,38 @@ The text of your abstract. 200 or fewer words.
 \subsection{Increasing Public Debt}\label{increasing-public-debt}}
 
 Constantly increasing public debt has been a recent developmet
-throughout recent history \citet{mitchener2023}. This raises the
+throughout recent history \citep{mitchener2023}. This raises the
 question of how will governments deal with rising debt burdens going
 forward. As debt increases, cost of borrowing increases. Will
 governments internalize the increase of cost of borrowing?
 
 \hypertarget{debt-crisis-without-default}{%
-\subsection{Debt crisis without
+\subsection{Debt Crisis Without
 Default}\label{debt-crisis-without-default}}
 
 It has also been noted we have debt crisis without default has become
 more common, wherein there was a near missed payment but never a default
 has a negative effect on output, as exemplified in Greece Portugal and
-Spain during 2010-2012 \citet{mitchener2023} . Going a step further some
+Spain during 2010-2012 \citep{mitchener2023} . Going a step further some
 have propose to change the definition of debt crises to yield spreads of
-1000 basis points, also known as spread spikes.
+1000 basis points, also known as spread spikes
 \citep{broner2013, aguiar, krishnamurthy}.
 
 What makes this even more poignant is that the output decline happens in
 anticipation of a default rather than the default itself
-\citet{yeyati2011}.
+\citep{yeyati2011}.
 
 What makes this an important topic to study is the body of evidence
 proving a decline in output associated with the high yields that
 accompanies a debt crisis. There are varying reasons for this such as
 the relationship between external financing and importers
-\citet{mendoza2012} , the decrease in external domestic firm
+\citep{mendoza2012}, the decrease in external domestic firm
 borrowing\citep{corsetti2012, das2010, gourinchas2016} or the tightening
 of credit against loses on bank balance
 sheets\citep{arellano, ferrando2017}.
 
 There has also been work on how credit rating agencies downgrading
-reduces leverage and investments \citet{almeida2017}. Similar
+reduces leverage and investments \citep{almeida2017}. Similar
 conclusions were drawn using CDS risk premium instead of bond yield
 spreads \citep{brutti2015, bahaj2020}. Similarly, we explore this in the
 context of debt brinkmanship.
@@ -243,7 +243,7 @@ highly indebted sovereigns. Currently we are in a safe asset shortage,
 such that we are coming closer to the effective lower bound, wherein
 central banks could not decrease interest rates any further as needed.
 This shortage is a key source of fragility in the economy, dubbed the
-``safety trap'' \citet{caballero2017} . Similarly, the current
+``safety trap'' \citep{caballero2017} . Similarly, the current
 literature has yet to consider if US debt ceiling brinkmanship
 contributes to this phenomenon.
 
@@ -254,10 +254,30 @@ The US treasury yield occupies the status as the biggest and most liquid
 market, wherein its yield is a significant determinant of yields
 globally. This phenomenon would be described as the ``global factor''
 becoming increasingly more important determinant of yields ,against
-specific ``country'' factors \citet{mauro2002}. Thus, studying the
-properties of US' yields would be important. {[}\citet{rozada2006};
-\citet{gonzález-rozada2008}; \citet{longstaff2011}{]}. We shall study
-US' yields in the context of debt ceiling brinkmanship.
+specific ``country'' factors \citep{mauro2002}. Thus, studying the
+properties of US' yields would be important.
+\citep{rozada2006, gonzález-rozada2008, longstaff2011}. We shall study
+US' yields in the context of debt ceiling brinkmanship. Furthermore,
+current literature on debt focuses on events like Greece or Argentina,
+less work has been done with consideration to US debt ceiling.
+
+\hypertarget{public-debt-and-debt-brinkmanship}{%
+\subsection{Public Debt and Debt
+Brinkmanship}\label{public-debt-and-debt-brinkmanship}}
+
+Previous literature etablishes the recent development of increasing high
+public debt{[} \citet{mitchener2023} {]}. While others note that debt
+brinkmanship has become more and more worse \citep{berman} , evident by
+the increasing trend of passing debt limit suspension vs raises.
+Insiders and analyst mention how normalized brinkmanship has become
+\citep{bivens} . We investigate the link between the two.
+
+We plot US debt limit increases along with world global change in
+debt/GDP ratios. We also plot the frequency of debt raises/suspensions
+to identify trends. We will also take note of rating agency negative
+outlooks from the top 3 rating agencies. Taking inspiration from
+
+\includegraphics[width=4.8125in,height=\textheight]{style-guide/Debt plot.png}
 
 \hypertarget{how-will-governments-react-to-the-increasing-cost-of-borrowing}{%
 \subsection{How will governments react to the increasing cost of
@@ -272,13 +292,12 @@ the 1000 basis points as a benchmark. We isolate brinkmanship with a
 1000 basis point increase against those without. An example would be
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1216}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1486}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1757}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1081}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1892}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1622}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.0946}}@{}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1351}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1757}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.2027}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1351}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1892}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1622}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 X-date
@@ -292,68 +311,83 @@ CDS
 CDS1000(1000 basis points or more)
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 Yields
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 \end{minipage} \\
 \midrule\noalign{}
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-\(x_1\) & \(d_1\) & \(n_{1,yes}=x_1-d_1\) & \$ & & & \\
+\(x_1\) & \(d_1\) & \(n_{1,yes}=x_1-d_1\) & \(c_1\) & yes & \(y_1\) \\
+\(x_2\) & \(d_2\) & \(n_{1,no}=x_2-d_2\) & \(c_2\) & no & \(y_2\) \\
+\ldots. & \ldots.. & \ldots. & \ldots.. & \ldots.. & \ldots{} \\
 \end{longtable}
-
-\begin{verbatim}
-                                                                        c_1    
-                                                                        $      | yes                                 | $      
-                                                                                                                      y_1     
-                                                                                                                      $       |     |
-\end{verbatim}
-
-\(x_2\) \textbar{} \(d_2\) \textbar{} \(n_{1,no}=x_2-d_2\) \textbar{}
-\(c_1\) \textbar{} no \textbar{} \$ y\_2 \$ \textbar{} \textbar{}\\
-\ldots. \textbar{} \ldots.. \textbar{} \ldots. \textbar{} \ldots..
-\textbar{} \ldots.. \textbar{} \ldots{} \textbar{} \textbar{}
 
 We investigate if debt ceiling negotiations settle faster given a sharp
 increase in cost. We compute \(\bar{n_{y}}\) , average negotiation
 length with a spread spike and compare this to \(\bar{n_{n}}\),
 negotiation length with no spike.
 
-We also run regression \(NegoLength=\Delta CDS+\Delta Yields\), such
-that we investigate weather debt ceiling negotiations will settle
-earlier given a bigger increased in cost of capital.
+We also run regression
+\(NegoLength=\beta_1\Delta CDS+\beta_2\Delta Yields+\beta_3D_{neg-outlook}\),
+such that we investigate weather debt ceiling negotiations will settle
+earlier given a bigger increased in cost of capital. We split cost of
+capital into three components CDS prices, yields and rating agency
+downgrades.
 
 We investigate trends overtime by \textbf{plotting} negation length on
 the y axis against date of increase on the x axis.
 
 We study how brinkmanship affects country yield spreads. we take
-inspiration from the data set by \citet{meyer2022} as it relates data on
-debt ceiling brinkmanship \citet{reinhart2008}.
+inspiration from the data set by \citep{meyer2022} as it relates data on
+debt ceiling brinkmanship \citep{reinhart2008}.
 
-\includegraphics{style-guide/overtime_brink_2.png}
+\includegraphics[width=3.94792in,height=\textheight]{style-guide/overtime_brink_2.png}
 
 \hypertarget{contributor-to-safe-asset-shortage}{%
 \subsection{Contributor to safe asset
 shortage?}\label{contributor-to-safe-asset-shortage}}
 
 Ever since the 2008 financial crisis risk premiums have not returned to
-prior levels \citet{caballero2017.We} investigate if debt brinkmanship
+prior levels\citep{caballero2017}.We investigate if debt brinkmanship
 contributes to this phenomenon as well. If so then there would be an
 argument to abolish the system on a global welfare standpoint. We take
 inspiration from
 
-\includegraphics{style-guide/1_year_ERP.png}
+\includegraphics[width=6.10417in,height=\textheight]{style-guide/1_year_ERP.png}
+
+We construct a similar graph as above taking debt ceiling dates.
 
 Using time t, as the time of debt increase. We graph a line representing
 the average change in 1 year expected risk premium. Another line
 represents the average change in 1 year treasury yields. We construct
-the graph below with mentioned variables
-\citet{duarte2015}.\includegraphics{style-guide/1_year_ERP_parallel_trends.jpeg}
+the graph below with mentioned variables \citep{duarte2015}.
 
-Similarly we do the same process considering variables of advanced vs
-developing countries. We also consider china. There has also been work
-on sovereign debt composition we investigate if sovereign debt
-composition getsaffected. through the world currency composition We also
-inveestigate its effects with regards to central bank holdings.
+\includegraphics[width=5.21875in,height=\textheight]{style-guide/1_year_ERP_parallel_trends.jpeg}
+
+\hypertarget{debt-crisis-without-default-1}{%
+\subsection{Debt Crisis without
+Default?}\label{debt-crisis-without-default-1}}
+
+We then investigate if debt ceiling brinkmanship can be characterized as
+a debt crisis without default, as defined by prior literature. We graph
+
+\includegraphics[width=4.875in,height=\textheight]{style-guide/1_year_ERP_parallel_trends.jpeg}
+
+the y axis would represent GDP. We then make 3 lines corresponding to
+the following attributes advanced countries, developing countries and
+China. We will use IMF definition and ifs dataset to accomplish this. We
+investigate if the output decline show by \citep{yeyati2011} is present.
+We also propose a similar graph using imports on the y axis in line with
+\citep{mendoza2012}. We investigate debt to market cap levels fo firms
+\citep{corsetti2012, das2010, gourinchas2016}s. We investigate
+investments \citep{almeida2017}
+
+We consider China for the follwing reasons. China's rise to the world
+stage has been marked with capital exports that significantly alter
+global yields \citep{alfaro2014, gourinchas}. In fact, China's lending
+portfolio surpasses that of the World Bank \citep{horn2021} . We use
+horns data-set. to analyze this.
+
+US debt brinkmanship has been getting more fierce.
 
 \hypertarget{sec-dataset}{%
 \section{Data set}\label{sec-dataset}}
