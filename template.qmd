@@ -18,36 +18,37 @@ author:
 abstract: |
   Under the backdrop of increasing public debt, "debt crisis without default" and safe asset shortages, we investigate how US debt brinkmanship plays a role into mentioned topics. 
 keywords:
-  - 3 to 6 keywords
-  - that do not appear in the title
+  - safe asset shortage
+  - increasing public debt
 bibliography: bibliography.bib  
 editor: 
   markdown: 
     wrap: sentence
 ---
 
-## Literature  {#sec-l}
+## Literature {#sec-l}
 
 ### Increasing Public Debt
 
-Constantly increasing public debt has been a recent developmet throughout recent history [@mitchener2023].
+Constantly increasing public debt has been a recent development throughout recent history [@mitchener2023].
 This raises the question of how will governments deal with rising debt burdens going forward.
 As debt increases, cost of borrowing increases.
 Will governments internalize the increase of cost of borrowing?
 
 ### Debt Crisis Without Default
 
-It has also been noted we have debt crisis without default has become more common, wherein there was a near missed payment but never a default has a negative effect on output, as exemplified in Greece Portugal and Spain during 2010-2012 [@mitchener2023] . Going a step further some have propose to change the definition of debt crises to yield spreads of 1000 basis points, also known as spread spikes [@broner2013; @aguiar; @krishnamurthy].
+It has also been noted we have debt crisis without default has become more common, wherein there was a near missed payment but never a default has a negative effect on output, as exemplified in Greece Portugal and Spain during 2010-2012 [@mitchener2023] .
+Going a step further some have propose to change the definition of debt crises to yield spreads of 1000 basis points, also known as spread spikes [@broner2013; @aguiar; @krishnamurthy].
 
 What makes this even more poignant is that the output decline happens in anticipation of a default rather than the default itself [@yeyati2011].
 
 What makes this an important topic to study is the body of evidence proving a decline in output associated with the high yields that accompanies a debt crisis.
 There are varying reasons for this such as the relationship between external financing and importers [@mendoza2012], the decrease in external domestic firm borrowing[@corsetti2012; @das2010; @gourinchas2016] or the tightening of credit against loses on bank balance sheets[@arellano; @ferrando2017].
 
-There has also been work on how credit rating agencies downgrading reduces leverage and investments [@almeida2017]. Similar conclusions were drawn using CDS risk premium instead of bond yield spreads [@brutti2015; @bahaj2020].
-Similarly, we explore this in the context of debt brinkmanship.
+There has also been work on how credit rating agencies downgrading reduces leverage and investments [@almeida2017].
+Similar conclusions were drawn using CDS risk premium instead of bond yield spreads [@brutti2015; @bahaj2020].
 
-Interestingly, the current literature has yet to consider if US debt ceiling brinkmanship falls under this category.
+Interestingly, despite the fact that US debt brinkmanship raises borrowing cost and treasury yields [@nippani2017], the current literature has yet to consider if US debt ceiling brinkmanship falls under this category.
 
 ### Safe Asset Shortage
 
@@ -59,13 +60,15 @@ Similarly, the current literature has yet to consider if US debt ceiling brinkma
 ## Introduction
 
 The US treasury yield occupies the status as the biggest and most liquid market, wherein its yield is a significant determinant of yields globally.
-This phenomenon would be described as the "global factor" becoming increasingly more important determinant of yields ,against specific "country" factors [@mauro2002]. Thus, studying the properties of US' yields would be important. [@rozada2006; @gonzález-rozada2008; @longstaff2011].
+This phenomenon would be described as the "global factor" becoming increasingly more important determinant of yields ,against specific "country" factors [@mauro2002].
+Thus, studying the properties of US' yields would be important.
+[@rozada2006; @gonzález-rozada2008; @longstaff2011].
 We shall study US' yields in the context of debt ceiling brinkmanship.
 Furthermore, current literature on debt focuses on events like Greece or Argentina, less work has been done with consideration to US debt ceiling.
 
 ### Public Debt and Debt Brinkmanship
 
-Previous literature etablishes the recent development of increasing high public debt\[ @mitchener2023 \].
+Previous literature establishes the recent development of increasing high public debt\[ @mitchener2023 \].
 While others note that debt brinkmanship has become more and more worse [@berman] , evident by the increasing trend of passing debt limit suspension vs raises.
 Insiders and analyst mention how normalized brinkmanship has become [@bivens] .
 We investigate the link between the two.
@@ -75,23 +78,38 @@ We also plot the frequency of debt raises/suspensions to identify trends.
 We will also take note of rating agency negative outlooks from the top 3 rating agencies.
 Taking inspiration from
 
-![](style-guide/Debt plot.png){width="462"}
+![](style-guide/Debt%20plot.png){width="462"}
 
 ### How will governments react to the increasing cost of borrowing?
 
 We construct a data set of X-dates, dates where the US government will supposedly run out of money.
-This is done by analyzing the maximum ex ante yield spread and CDS prices.
+This is done by analyzing the maximum ex ante yield curves and CDS prices.
+An example would be
+
+![](style-guide/x-date-estmation.jpg){width="444"}
+
+[@boesler][@steinmetz-silber] .
+
+In here we see the peak of the yield curve would correspond to the "x-date".
+Similarly,
+
+![](style-guide/CDS-x-date.png){width="489"}
+
+[@rao2023][@benzoni] .
+
+In here we see the peaks of CDS prices correspond to the "x-date".
+
 We then analyze changes in CDS prices and yields, using data from Bloomberg.
 We use official whitehouse data to get dates of debt limit increase.
 We build on prior work which uses the 1000 basis points as a benchmark.
 We isolate brinkmanship with a 1000 basis point increase against those without.
 An example would be
 
-| X-date | Date of Increase | Negotiation length=(X-date)-Date of Increase | CDS   | CDS1000(1000 basis points or more)  | Yields |
-|----------|-------------|---------------|----------|--------------|------------|
-| $x_1$  | $d_1$            | $n_{1,yes}=x_1-d_1$                          | $c_1$ | yes                                 | $y_1$  |
-| $x_2$  | $d_2$            | $n_{1,no}=x_2-d_2$                           | $c_2$ | no                                  | $y_2$  |
-| ....   | .....            | ....                                         | ..... | .....                               | ...    |
+| X-date | Date of Increase | Negotiation length=(X-date)-Date of Increase | CDS   | CDS1000(1000 basis points or more) | Yields |
+|--------|------------------|----------------------------------------------|-------|------------------------------------|--------|
+| $x_1$  | $d_1$            | $n_{1,yes}=x_1-d_1$                          | $c_1$ | yes                                | $y_1$  |
+| $x_2$  | $d_2$            | $n_{1,no}=x_2-d_2$                           | $c_2$ | no                                 | $y_2$  |
+| ....   | .....            | ....                                         | ..... | .....                              | ...    |
 
 We investigate if debt ceiling negotiations settle faster given a sharp increase in cost.
 We compute $\bar{n_{y}}$ , average negotiation length with a spread spike and compare this to $\bar{n_{n}}$, negotiation length with no spike.
@@ -132,18 +150,21 @@ We graph
 
 the y axis would represent GDP.
 We then make 3 lines corresponding to the following attributes advanced countries, developing countries and China.
-We will use IMF definition and ifs dataset to accomplish this.
-We investigate if the output decline show by [@yeyati2011] is present. We also propose a similar graph using imports on the y axis in line with [@mendoza2012]. We investigate debt to market cap levels fo firms [@corsetti2012; @das2010; @gourinchas2016]s.
-We investigate investments [@almeida2017]
+We will use IMF definition and ifs data-set to accomplish this.
+By doing this, we investigate if the output decline [@yeyati2011] is present.
 
-We consider China for the follwing reasons.
+We consider China for the following reasons.
 China's rise to the world stage has been marked with capital exports that significantly alter global yields [@alfaro2014; @gourinchas].
 In fact, China's lending portfolio surpasses that of the World Bank [@horn2021] .
 We use horns data-set.
 to analyze this.
 
-US debt brinkmanship has been getting more fierce.
+We also propose a similar graph using imports on the y axis in line with [@mendoza2012].
+Similarly, We investigate debt/market cap levels by firms [@corsetti2012; @das2010; @gourinchas2016] and investments [@almeida2017].
 
-## Data set {#sec-dataset}
+Lastly, there is work that shows US debt brinkmanship directly increase treasury yields and borrowing cost [@nippani2017].
+We investigate and compare the increased cost in borrowing and treasury yield of the US against countries the defaulted or are under the category of "debt crisis without default".
+Examples of such countries would be Argentina, Spain, Venezuela, etc.
+The study would be implemented in a parallel trends assumptions test as shown in the figure above.
 
 ## References
