@@ -37,18 +37,21 @@ Will governments internalize the increase of cost of borrowing?
 
 ### Debt Crisis Without Default
 
-It has also been noted we have debt crisis without default has become more common, wherein there was a near missed payment but never a default has a negative effect on output, as exemplified in Greece Portugal and Spain during 2010-2012 [@mitchener2023] .
-Going a step further some have propose to change the definition of debt crises to yield spreads of 1000 basis points, also known as spread spikes [@broner2013; @aguiar; @krishnamurthy].
+It has also been noted we have debt crisis without default has become more common, wherein there was a near missed payment but never a default, as exemplified in Greece Portugal and Spain during 2010-2012 [@mitchener2023].
+To take this into account, some have proposed to redefine a debt crisis as yield spreads of 1000 basis points, also known as spread spikes [@broner2013; @aguiar; @krishnamurthy].
 
-What makes this even more poignant is that the output decline happens in anticipation of a default rather than the default itself [@yeyati2011].
+What is interesting is that "debt crisis without default" function as if a default had actually occurred.
+Output declines associated with a default occur even if a default had not occurred.
+The anticipation of a potential default was sufficient for output declines.
+[@yeyati2011].
 
-What makes this an important topic to study is the body of evidence proving a decline in output associated with the high yields that accompanies a debt crisis.
-There are varying reasons for this such as the relationship between external financing and importers [@mendoza2012], the decrease in external domestic firm borrowing[@corsetti2012; @das2010; @gourinchas2016] or the tightening of credit against loses on bank balance sheets[@arellano; @ferrando2017].
+The literature analyzes possible channels of said output decline.
+One channel is higher yields.
+There are different justifications for this channel namely increased external financing cost to importers [@mendoza2012], decrease in external domestic firm borrowing[@corsetti2012; @das2010; @gourinchas2016] or tightening of credit against loses on bank's balance sheets[@arellano; @ferrando2017].
+Another channel is credit rating downgrades, which reduces leverage and investments [@almeida2017].
+These channels were robust even when considering high frequency CDS risk premium data and SME (small and medium sized enterprise) surveys [@brutti2015; @bahaj2020; @almeida2017].
 
-There has also been work on how credit rating agencies downgrading reduces leverage and investments [@almeida2017].
-Similar conclusions were drawn using CDS risk premium instead of bond yield spreads [@brutti2015; @bahaj2020].
-
-Interestingly, despite the fact that US debt brinkmanship raises borrowing cost and treasury yields [@nippani2017], the current literature has yet to consider if US debt ceiling brinkmanship falls under this category.
+Despite the fact that US debt brinkmanship raises yields [@nippani2017], the current literature has yet to consider if US debt ceiling brinkmanship is akin to a debt crisis without default, wherein yield spikes cause US output to decline in anticipation of default.
 
 ### Safe Asset Shortage
 
@@ -56,6 +59,17 @@ Another pertinent question is the many creditors willing to lend to highly indeb
 Currently we are in a safe asset shortage, such that we are coming closer to the effective lower bound, wherein central banks could not decrease interest rates any further as needed.
 This shortage is a key source of fragility in the economy, dubbed the "safety trap" [@caballero2017] .
 Similarly, the current literature has yet to consider if US debt ceiling brinkmanship contributes to this phenomenon.
+
+Rising US Government Debt
+
+Debt to GDP ratios have been a notable trend
+
+### Advanced Economy
+
+US debt to GDP ratios are approaching levels seen in World War II [@yared2019] .
+With projections expecting further increases [@congressionalbudgetoffice2023].
+
+Talk about the reasons like old age.
 
 ## Introduction
 
@@ -68,9 +82,37 @@ Furthermore, current literature on debt focuses on events like Greece or Argenti
 
 ### Public Debt and Debt Brinkmanship
 
-Previous literature establishes the recent development of increasing high public debt\[ @mitchener2023 \].
+Previous literature establishes the recent development of increasing high public debt [@mitchener2023 ].
 While others note that debt brinkmanship has become more and more worse [@berman] , evident by the increasing trend of passing debt limit suspension vs raises.
-Insiders and analyst mention how normalized brinkmanship has become [@bivens] .
+Insiders and analyst mention how normalized brinkmanship has become [@bivens].
+The causes of this are many.
+Some mention how the rise of populism made the US government less responsive to business leaders [@cook2023] .
+The incentive structures in place have shifted to financial contributions being raised online in small amounts rather than big donations from prominent interest.
+Gerrymandering has also been a variable.
+With the rise of "custom-designed" districts, swing districts are becoming rare.
+This shifts the incentive structure to cater less to independents or moderates, which leads to less compromises.
+The number of moderates currently in congress is significantly less compared to the 1970s [@desilver2022],
+
+does brinkmanship intensity improve debt to gdp or just debt is it a sign
+
+to be specific us govenrment debt to gdp ratios are at an all time historical high site sources
+
+overalld ebt is high as well
+
+there are numerous reasons for tis old people
+
+talk about atx moothing theories and their failure maybe brinkmanship
+
+possible causes????
+
+talk about the sfa asset privison theory suppose that we haev debt brinkmanship then the theory suggest we would increase public debt becuase this would mean less safe assets?
+
+or would it mean that less debt because now we have credibility uncertainty risk
+
+does brinkmanship constrain fiscal debt
+
+TALK ABOUT INequality political gridlock talk abotu data and the distribution of different opinions
+
 We investigate the link between the two.
 
 We plot US debt limit increases along with world global change in debt/GDP ratios.
@@ -106,7 +148,7 @@ We isolate brinkmanship with a 1000 basis point increase against those without.
 An example would be
 
 | X-date | Date of Increase | Negotiation length=(X-date)-Date of Increase | CDS   | CDS1000(1000 basis points or more) | Yields |
-|--------|------------------|----------------------------------------------|-------|------------------------------------|--------|
+|------------|------------|-------------|------------|------------|------------|
 | $x_1$  | $d_1$            | $n_{1,yes}=x_1-d_1$                          | $c_1$ | yes                                | $y_1$  |
 | $x_2$  | $d_2$            | $n_{1,no}=x_2-d_2$                           | $c_2$ | no                                 | $y_2$  |
 | ....   | .....            | ....                                         | ..... | .....                              | ...    |
@@ -166,5 +208,14 @@ Lastly, there is work that shows US debt brinkmanship directly increase treasury
 We investigate and compare the increased cost in borrowing and treasury yield of the US against countries the defaulted or are under the category of "debt crisis without default".
 Examples of such countries would be Argentina, Spain, Venezuela, etc.
 The study would be implemented in a parallel trends assumptions test as shown in the figure above.
+
+## Future Considerations
+
+Future considerations are as follows.
+Rubenstein bargaining model.
+Trembling hand model.
+Congressmen attendance.
+Measures of reserve currency.
+talk about nippani 2017 resignation
 
 ## References
