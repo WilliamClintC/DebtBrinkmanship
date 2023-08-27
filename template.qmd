@@ -16,7 +16,7 @@ author:
         department: Department of Economics
   
 abstract: |
-  Under the backdrop of increasing public debt, "debt crisis without default" and safe asset shortages, we investigate how US debt brinkmanship plays a role into mentioned topics. 
+  Under the backdrop of increasing public debt, "debt crisis without default" and safe asset shortages, we investigate how US debt brinkmanship plays a role into these topics. 
 keywords:
   - safe asset shortage
   - increasing public debt
@@ -60,16 +60,20 @@ Currently we are in a safe asset shortage, such that we are coming closer to the
 This shortage is a key source of fragility in the economy, dubbed the "safety trap" [@caballero2017] .
 Similarly, the current literature has yet to consider if US debt ceiling brinkmanship contributes to this phenomenon.
 
-Rising US Government Debt
+### Advanced Economy Debt
 
-Debt to GDP ratios have been a notable trend
+US debt to GDP ratios are approaching levels seen in World War II. With projections expecting further increases [@congressionalbudgetoffice2023].
+Such debt levels are unexplained by current macroeconomic theories such as tax-smoothing, provision of safe assets and sustaining of dynamic efficiency and thus would theoretically result in negative outcomes outcomes such as diminished economic activity, constrain credit during emergencies , which increases default risk [@yared2019; @battaglini2016; @romer2018; @obstfeld].
+With this said debt levels are more explained by political economy theories, such as a increasingly , older population, rising political polarization and rising electoral uncertainty.
 
-### Advanced Economy
-
-US debt to GDP ratios are approaching levels seen in World War II [@yared2019] .
-With projections expecting further increases [@congressionalbudgetoffice2023].
-
-Talk about the reasons like old age.
+Younger households place a larger value on fiscal responsibility (patience) than older households [@wolter2013].
+Such that as the older population increases , government deficits and debt accumulation increase [@jackson2014; @jackson2015; @cukierman1989; @tabellini1991; @yared2019].
+Rising political polarization has exacerbated the tragedy of the commons, such that larger deficits are observed with greater polarization [@hertzberg2016].The US has had increasing polarization since the 1960s.
+Furthermore There is decline in centrist parties and and increase in extreme left and right parties [@funke2016; @azzimonti2018].
+Another consideration is electoral uncertainty.
+Rising electoral uncertainty decreases incentive for long term fiscal responsibility [@drazen2000; @alt2006].
+The US election margin of victory has been decreasing since the 1980s incumbency advantage has also declined [@jacobson2015].
+We investigate these factors and its relationship to debt brinkmanship.
 
 ## Introduction
 
@@ -91,29 +95,10 @@ The incentive structures in place have shifted to financial contributions being 
 Gerrymandering has also been a variable.
 With the rise of "custom-designed" districts, swing districts are becoming rare.
 This shifts the incentive structure to cater less to independents or moderates, which leads to less compromises.
-The number of moderates currently in congress is significantly less compared to the 1970s [@desilver2022],
+The number of moderates currently in congress is significantly less compared to the 1970s [@desilver2022].
+Previous literature also establishes older demographics, rising polarization and electoral uncertainty as factors.
 
-does brinkmanship intensity improve debt to gdp or just debt is it a sign
-
-to be specific us govenrment debt to gdp ratios are at an all time historical high site sources
-
-overalld ebt is high as well
-
-there are numerous reasons for tis old people
-
-talk about atx moothing theories and their failure maybe brinkmanship
-
-possible causes????
-
-talk about the sfa asset privison theory suppose that we haev debt brinkmanship then the theory suggest we would increase public debt becuase this would mean less safe assets?
-
-or would it mean that less debt because now we have credibility uncertainty risk
-
-does brinkmanship constrain fiscal debt
-
-TALK ABOUT INequality political gridlock talk abotu data and the distribution of different opinions
-
-We investigate the link between the two.
+We investigate the link between public debt and debt brinkmanship.
 
 We plot US debt limit increases along with world global change in debt/GDP ratios.
 We also plot the frequency of debt raises/suspensions to identify trends.
@@ -142,7 +127,7 @@ Similarly,
 In here we see the peaks of CDS prices correspond to the "x-date".
 
 We then analyze changes in CDS prices and yields, using data from Bloomberg.
-We use official whitehouse data to get dates of debt limit increase.
+We use official white-house data to get dates of debt limit increase.
 We build on prior work which uses the 1000 basis points as a benchmark.
 We isolate brinkmanship with a 1000 basis point increase against those without.
 An example would be
@@ -156,7 +141,7 @@ An example would be
 We investigate if debt ceiling negotiations settle faster given a sharp increase in cost.
 We compute $\bar{n_{y}}$ , average negotiation length with a spread spike and compare this to $\bar{n_{n}}$, negotiation length with no spike.
 
-We also run regression $NegoLength=\beta_1\Delta CDS+\beta_2\Delta Yields+\beta_3D_{neg-outlook}$, such that we investigate weather debt ceiling negotiations will settle earlier given a bigger increased in cost of capital.
+We also run regression $NegoLength=\beta_1\Delta CDS+\beta_2\Delta Yield+\beta_3D_{neg-outlook}$, such that we investigate weather debt ceiling negotiations will settle earlier given a bigger increased in cost of capital.
 We split cost of capital into three components CDS prices, yields and rating agency downgrades.
 
 We investigate trends overtime by **plotting** negation length on the y axis against date of increase on the x axis.
@@ -165,6 +150,20 @@ We study how brinkmanship affects country yield spreads.
 we take inspiration from the data set by [@meyer2022] as it relates data on debt ceiling brinkmanship [@reinhart2008].
 
 ![](style-guide/overtime_brink_2.png){width="379"}
+
+Does intense brinkmanship discourage the accumulation of debt?
+We create a variable of brinkmanship intensity.
+
+$BrinkIntensity=\alpha_1\Delta CDS+\alpha_2\Delta Yield+\alpha_3D_{neg-outlook}+\alpha_4NegoLength$
+
+where $\alpha_n$ are weights.
+We then graph brinkmanship intensity across time.
+We overlay a graph of change in debt and debt to GDP.
+
+Previous literature establishes that polarization and electoral uncertainty are causes of increase in debt.
+Using polarization measures created by Funke and Azzimoti [@funke2016; @azzimonti2018], we investigate if rising polarization and electoral uncertainty coincide with brinkmanship intensity.
+We graph all these variables together.
+These analysis would be important into he understanding of how US debt will potentially develop.
 
 ### Contributor to safe asset shortage?
 
@@ -194,6 +193,7 @@ the y axis would represent GDP.
 We then make 3 lines corresponding to the following attributes advanced countries, developing countries and China.
 We will use IMF definition and ifs data-set to accomplish this.
 By doing this, we investigate if the output decline [@yeyati2011] is present.
+We construct a synthetic control model using the most recent dates of brinkmanship to answer this question.
 
 We consider China for the following reasons.
 China's rise to the world stage has been marked with capital exports that significantly alter global yields [@alfaro2014; @gourinchas].
@@ -216,6 +216,5 @@ Rubenstein bargaining model.
 Trembling hand model.
 Congressmen attendance.
 Measures of reserve currency.
-talk about nippani 2017 resignation
 
 ## References
