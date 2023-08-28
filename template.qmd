@@ -91,14 +91,14 @@ While others note that debt brinkmanship has become more and more worse [@berman
 Insiders and analyst mention how normalized brinkmanship has become [@bivens].
 The causes of this are many.
 Some mention how the rise of populism made the US government less responsive to business leaders [@cook2023] .
-The incentive structures in place have shifted to financial contributions being raised online in small amounts rather than big donations from prominent interest.
-Gerrymandering has also been a variable.
-With the rise of "custom-designed" districts, swing districts are becoming rare.
-This shifts the incentive structure to cater less to independents or moderates, which leads to less compromises.
+The incentive structures in place have shifted to more financial contributions being raised online in small amounts rather than big donations from prominent interest.
 The number of moderates currently in congress is significantly less compared to the 1970s [@desilver2022].
 Previous literature also establishes older demographics, rising polarization and electoral uncertainty as factors.
 
 We investigate the link between public debt and debt brinkmanship.
+As debt brinkmanship intensifies, would this serve to discourage further accumulation of excess debt.
+On one hand, It could be that the unpleasant effects of brinkmanship are a deterrent to further accumulation of debt.
+On the other hand, brinkmanship maybe a mere symptom of the current political climate and thus has no direct effect on debt accumulation.
 
 We plot US debt limit increases along with world global change in debt/GDP ratios.
 We also plot the frequency of debt raises/suspensions to identify trends.
@@ -169,6 +169,10 @@ These analysis would be important into he understanding of how US debt will pote
 
 Ever since the 2008 financial crisis risk premiums have not returned to prior levels[@caballero2017].We investigate if debt brinkmanship contributes to this phenomenon as well.
 If so then there would be an argument to abolish the system on a global welfare standpoint.
+It could be the case that a debt brinkmanship reduces the quantity of safe asset, by increasing the risk of US debt default.
+On the other hand, the US has yet to ever default on its debt.
+Furthermore, the US dollars has the exorbitant privilege of being the world's reserve currency.
+
 We take inspiration from
 
 ![](style-guide/1_year_ERP.png){#fig-first width="586"}
@@ -185,6 +189,9 @@ We construct the graph below with mentioned variables [@duarte2015].
 ### Debt Crisis without Default?
 
 We then investigate if debt ceiling brinkmanship can be characterized as a debt crisis without default, as defined by prior literature.
+It could very well be that US debt falls under "debt crisis without default" category.
+But at the same time, the US has characteristics vastly different from other "debt crisis without default" countries like Argentina and Greece.
+
 We graph
 
 ![](style-guide/1_year_ERP_parallel_trends.jpeg){width="468"}
