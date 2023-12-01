@@ -15,7 +15,8 @@ author:
         department: Department of Economics
   
 abstract: |
-  Under the backdrop of increasing public debt, "debt crisis without default" and safe asset shortages, we investigate how US debt brinkmanship plays a role into these topics. 
+  We investigate US debt brinkmanship's role into current trends of increasing public debt, "debt crisis without default" and safe asset shortages. 
+  
 keywords:
   - safe asset shortage
   - increasing public debt
