@@ -9,8 +9,7 @@ format:
 date: last-modified
 author:
   - name: William Clinton Co
-    acknowledgements: | 
-      We would like to express my gratitude to Jonathan Graves for helpful feedback ,guidance and the opportunity to participate.
+    acknowledgements: 
     affiliations:
       - name: The University of British Columbia
         department: Department of Economics
@@ -136,7 +135,7 @@ We isolate brinkmanship with a 1000 basis point increase against those without.
 An example would be
 
 | X-date | Date of Increase | Negotiation length=(X-date)-Date of Increase | CDS   | CDS1000(1000 basis points or more) | Yields |
-|------------|------------|-------------|------------|------------|------------|
+|------------|------------|------------|------------|------------|------------|
 | $x_1$  | $d_1$            | $n_{1,yes}=x_1-d_1$                          | $c_1$ | yes                                | $y_1$  |
 | $x_2$  | $d_2$            | $n_{1,no}=x_2-d_2$                           | $c_2$ | no                                 | $y_2$  |
 | ....   | .....            | ....                                         | ..... | .....                              | ...    |
