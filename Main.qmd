@@ -1,5 +1,5 @@
 ---
-title: "Is US Debt Brinkmanship a Debt Crisis Without Default?"
+title: "Econ 494-Adlai Fisher, HW1"
 format:
   jasa-pdf:
     keep-tex: true  
@@ -12,30 +12,44 @@ author:
     acknowledgements: 
     affiliations:
       - name: The University of British Columbia
-        department: Department of Economics
-  
 abstract: |
-  We investigate US debt brinkmanship's role into current trends of increasing public debt, "debt crisis without default" and safe asset shortages. 
+  This paper summarizes my goals and aprehensions towards the class. It then presents my current research proposal.  
   
 keywords:
-  - safe asset shortage
-  - increasing public debt
+  - US debt brinkmanship
+  - debt
 bibliography: bibliography.bib  
 editor: 
   markdown: 
     wrap: sentence
 ---
 
-## Literature {#sec-l}
+## HW1 {#sec-l}
 
-### Increasing Public Debt
+### Purpose and Interest
+
+By participating in this course, I hope to become a finance academic.
+I hope to pursue a year long research project such that it would give me the skills and experience necessary for graduate school.
+I am heavily interested in finance.
+I am part of UBC's quantitative trading club (UBC Trading Group), wherein we read and discuss trading strategies and implementations weekly.
+
+### Apprehensions
+
+Any apprehensions towards the course would be time.
+Reading through different papers, one quickly realizes there is not enough time to thoroughly read and understand all relevant papers.
+
+## Research Proposal
+
+### Literature
+
+#### Increasing Public Debt
 
 Constantly increasing public debt has been a recent development throughout recent history [@mitchener2023].
 This raises the question of how will governments deal with rising debt burdens going forward.
 As debt increases, cost of borrowing increases.
 Will governments internalize the increase of cost of borrowing?
 
-### Debt Crisis Without Default
+#### Debt Crisis Without Default
 
 It has also been noted we have debt crisis without default has become more common, wherein there was a near missed payment but never a default, as exemplified in Greece Portugal and Spain during 2010-2012 [@mitchener2023].
 To take this into account, some have proposed to redefine a debt crisis as yield spreads of 1000 basis points, also known as spread spikes [@broner2013; @aguiar; @krishnamurthy].
@@ -53,14 +67,14 @@ These channels were robust even when considering high frequency CDS risk premium
 
 Despite the fact that US debt brinkmanship raises yields [@nippani2017], the current literature has yet to consider if US debt ceiling brinkmanship is akin to a debt crisis without default, wherein yield spikes cause US output to decline in anticipation of default.
 
-### Safe Asset Shortage
+#### Safe Asset Shortage
 
 Another pertinent question is the many creditors willing to lend to highly indebted sovereigns.
 Currently we are in a safe asset shortage, such that we are coming closer to the effective lower bound, wherein central banks could not decrease interest rates any further as needed.
 This shortage is a key source of fragility in the economy, dubbed the "safety trap" [@caballero2017] .
 Similarly, the current literature has yet to consider if US debt ceiling brinkmanship contributes to this phenomenon.
 
-### Advanced Economy Debt
+#### Advanced Economy Debt
 
 US debt to GDP ratios are approaching levels seen in World War II. With projections expecting further increases [@congressionalbudgetoffice2023].
 Such debt levels are unexplained by current macroeconomic theories such as tax-smoothing, provision of safe assets and sustaining of dynamic efficiency and thus would theoretically result in negative outcomes such as diminished economic activity and constrained credit, which increases default risk [@yared2019; @battaglini2016; @romer2018; @obstfeld].
@@ -75,16 +89,16 @@ Rising electoral uncertainty decreases incentive for long term fiscal responsibi
 The US election margin of victory has been decreasing since the 1980s incumbency advantage has also declined [@jacobson2015].
 We investigate these factors and its relationship to debt brinkmanship.
 
-## Introduction
+### Introduction
 
 The US treasury yield occupies the status as the biggest and most liquid market, wherein its yield is a significant determinant of yields globally.
 This phenomenon would be described as the "global factor" becoming increasingly more important determinant of yields ,against specific "country" factors [@mauro2002].
 Thus, studying the properties of US' yields would be important.
 [@rozada2006; @gonzález-rozada2008; @longstaff2011].
-We shall study US' yields in the context of debt ceiling brinkmanship.
+We shall study yields in the context of US debt ceiling brinkmanship.
 Furthermore, current literature on debt focuses on events like Greece or Argentina, less work has been done with consideration to US debt ceiling.
 
-### Public Debt and Debt Brinkmanship
+##### Public Debt and Debt Brinkmanship
 
 Previous literature establishes the recent development of increasing high public debt [@mitchener2023 ].
 While others note that debt brinkmanship has become more and more worse [@berman] , evident by the increasing trend of passing debt limit suspension vs raises.
@@ -108,22 +122,22 @@ We also plot the frequency of debt raises/suspensions to identify trends.
 We will also take note of rating agency negative outlooks from the top 3 rating agencies.
 Taking inspiration from
 
-![](style-guide/Debt%20plot.png){width="462"}
+![](style-guide/Debt%20plot.png){width="278"}
 
-### How will governments react to the increasing cost of borrowing?
+#### How will governments react to the increasing cost of borrowing?
 
 We construct a data set of X-dates, dates where the US government will supposedly run out of money.
 This is done by analyzing the maximum ex ante yield curves and CDS prices.
 An example would be
 
-![](style-guide/x-date-estmation.jpg){width="444"}
+![](style-guide/x-date-estmation.jpg){width="231"}
 
 [@boesler][@steinmetz-silber] .
 
 In here we see the peak of the yield curve would correspond to the "x-date".
 Similarly,
 
-![](style-guide/CDS-x-date.png){width="489"}
+![](style-guide/CDS-x-date.png){width="261"}
 
 [@rao2023][@benzoni] .
 
@@ -152,7 +166,7 @@ We investigate trends overtime by **plotting** negation length on the y axis aga
 We study how brinkmanship affects country yield spreads.
 we take inspiration from the data set by [@meyer2022] as it relates data on debt ceiling brinkmanship [@reinhart2008].
 
-![](style-guide/overtime_brink_2.png){width="379"}
+![](style-guide/overtime_brink_2.png){width="289"}
 
 Does intense brinkmanship discourage the accumulation of debt?
 We create a variable of brinkmanship intensity.
@@ -168,7 +182,7 @@ Using polarization measures created by Funke and Azzimoti [@funke2016; @azzimont
 We graph all these variables together.
 These analysis would be important into he understanding of how US debt will potentially develop.
 
-### Contributor to safe asset shortage?
+##### Contributor to safe asset shortage?
 
 Ever since the 2008 financial crisis risk premiums have not returned to prior levels[@caballero2017].We investigate if debt brinkmanship contributes to this phenomenon as well.
 If so then there would be an argument to abolish the system on a global welfare standpoint.
@@ -178,7 +192,7 @@ Furthermore, the US dollars has the exorbitant privilege of being the world's re
 
 We take inspiration from
 
-![](style-guide/1_year_ERP.png){#fig-first width="586"}
+![](style-guide/1_year_ERP.png){#fig-first width="208"}
 
 We construct a similar graph as above taking debt ceiling dates.
 
@@ -187,9 +201,9 @@ We graph a line representing the average change in 1 year expected risk premium.
 Another line represents the average change in 1 year treasury yields.
 We construct the graph below with mentioned variables [@duarte2015].
 
-![](style-guide/1_year_ERP_parallel_trends.jpeg){width="501"}
+![](style-guide/1_year_ERP_parallel_trends.jpeg){width="279"}
 
-### Debt Crisis without Default?
+#### Debt Crisis without Default?
 
 We then investigate if debt ceiling brinkmanship can be characterized as a debt crisis without default, as defined by prior literature.
 It could very well be that US debt falls under "debt crisis without default" category.
@@ -197,7 +211,7 @@ But at the same time, the US has characteristics vastly different from other "de
 
 We graph
 
-![](style-guide/1_year_ERP_parallel_trends.jpeg){width="468"}
+![](style-guide/1_year_ERP_parallel_trends.jpeg){width="238"}
 
 the y axis would represent GDP.
 We then make 3 lines corresponding to the following attributes advanced countries, developing countries and China.
@@ -219,7 +233,9 @@ We investigate and compare the increased cost in borrowing and treasury yield of
 Examples of such countries would be Argentina, Spain, Venezuela, etc.
 The study would be implemented in a parallel trends assumptions test as shown in the figure above.
 
-## Future Considerations
+#### Return Reversals
+
+#### Future Considerations
 
 Future considerations are as follows.
 Rubenstein bargaining model.
@@ -227,4 +243,4 @@ Trembling hand model.
 Congressmen attendance.
 Measures of reserve currency.
 
-## References
+### References
