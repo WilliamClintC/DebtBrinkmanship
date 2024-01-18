@@ -184,7 +184,7 @@ then presents my current research proposal.
 
 \newpage
 \spacingset{1.9} % DON'T change the spacing!
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[enhanced, sharp corners, interior hidden, frame hidden, borderline west={3pt}{0pt}{shadecolor}, breakable, boxrule=0pt]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[interior hidden, frame hidden, breakable, sharp corners, borderline west={3pt}{0pt}{shadecolor}, boxrule=0pt, enhanced]}{\end{tcolorbox}}\fi
 
 \hypertarget{sec-l}{%
 \section{HW1}\label{sec-l}}
@@ -516,19 +516,24 @@ trends assumptions test as shown in the figure above.
 \hypertarget{return-reversals}{%
 \subsubsection{Return Reversals}\label{return-reversals}}
 
-@pfeil2016
+We use the model developed by \citet{boguth} to study return reversal,
+price informativeness, price pressure and fund flows namely,
+\[Ret_{i[t1,t2]} = γ_0 +γ_1Ret_{i[0,h−1]} + ε_i \]
 
-\citet{pfeil2016}
+\[ Ret_{i[4,20]} = γ_1Ret_{i[0,3]} + γ_2P ressure_i × Ret_i[0,3] + γ_3Pressure_i + ε_i \]
 
-\hypertarget{future-considerations}{%
-\subsubsection{Future Considerations}\label{future-considerations}}
+\[ Ret_{i[4,20]} = α + γ_1EqtFlow_{i[0,3]} + γ_2BndFlow_{i[0,3]} + γ_3NetFlow_{i[0,3]} + γ_4Ret_{i[0,3]} + ε_i \]
 
-Future considerations are as follows. Rubenstein bargaining model.
-Trembling hand model. Congressmen attendance. Measures of reserve
-currency.
+Using the identification method for debt brinkmanship developed we chart
+this against the VIX. We document the characteristics of a potential US
+default by charting our debt brinkmanship identification method against
+returns on value vs growth stocks, high vs low beta stocks, defensive vs
+cyclical. Lastly, we compare our results against similar debt crisis
+economies and document similarities and differences between a potential
+US default against other countries.
 
-\hypertarget{references}{%
-\subsection{References}\label{references}}
+\hypertarget{section}{%
+\subsection{}\label{section}}
 
 
   \bibliography{bibliography.bib}

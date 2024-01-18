@@ -233,14 +233,16 @@ We investigate and compare the increased cost in borrowing and treasury yield of
 Examples of such countries would be Argentina, Spain, Venezuela, etc.
 The study would be implemented in a parallel trends assumptions test as shown in the figure above.
 
-#### Return Reversals
+#### Return Reversals 
 
-#### Future Considerations
+We use the model developed by @boguth to study return reversal, price informativeness, price pressure and fund flows namely, $$Ret_{i[t1,t2]} = γ_0 +γ_1Ret_{i[0,h−1]} + ε_i $$
 
-Future considerations are as follows.
-Rubenstein bargaining model.
-Trembling hand model.
-Congressmen attendance.
-Measures of reserve currency.
+$$ Ret_{i[4,20]} = γ_1Ret_{i[0,3]} + γ_2P ressure_i × Ret_i[0,3] + γ_3Pressure_i + ε_i $$
 
-### References
+$$ Ret_{i[4,20]} = α + γ_1EqtFlow_{i[0,3]} + γ_2BndFlow_{i[0,3]} + γ_3NetFlow_{i[0,3]} + γ_4Ret_{i[0,3]} + ε_i $$
+
+Using the identification method for debt brinkmanship developed we chart this against the VIX.
+We document the characteristics of a potential US default by charting our debt brinkmanship identification method against returns on value vs growth stocks, high vs low beta stocks, defensive vs cyclical.
+Lastly, we compare our results against similar debt crisis economies and document similarities and differences between a potential US default against other countries.
+
+### 
