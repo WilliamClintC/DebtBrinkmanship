@@ -1,5 +1,5 @@
 ---
-title: "Econ 494-Adlai Fisher, HW1"
+title: "Debt Limit"
 format:
   jasa-pdf:
     keep-tex: true  
@@ -13,7 +13,7 @@ author:
     affiliations:
       - name: The University of British Columbia
 abstract: |
-  This paper summarizes my goals and aprehensions towards the class. It then presents my current research proposal.  
+  This paper seeks to analyze debt limit brinkmanship, characterizes its properties and its implications for the macroecnomy.  
   
 keywords:
   - US debt brinkmanship
@@ -24,21 +24,7 @@ editor:
     wrap: sentence
 ---
 
-## HW1 {#sec-l}
-
-### Purpose and Interest
-
-By participating in this course, I hope to become a finance academic.
-I hope to pursue a year long research project such that it would give me the skills and experience necessary for graduate school.
-I am heavily interested in finance.
-I am part of UBC's quantitative trading club (UBC Trading Group), wherein we read and discuss trading strategies and implementations weekly.
-
-### Apprehensions
-
-Any apprehensions towards the course would be time.
-Reading through different papers, one quickly realizes there is not enough time to thoroughly read and understand all relevant papers.
-
-## Research Proposal
+## Research Proposal {#sec-l}
 
 ### Literature
 
@@ -233,7 +219,7 @@ We investigate and compare the increased cost in borrowing and treasury yield of
 Examples of such countries would be Argentina, Spain, Venezuela, etc.
 The study would be implemented in a parallel trends assumptions test as shown in the figure above.
 
-#### Return Reversals 
+#### Return Reversals
 
 We use the model developed by @boguth to study return reversal, price informativeness, price pressure and fund flows namely, $$Ret_{i[t1,t2]} = γ_0 +γ_1Ret_{i[0,h−1]} + ε_i $$
 
